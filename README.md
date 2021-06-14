@@ -1,0 +1,1 @@
+# SHARP-CRMC-A489JBE0-AirCon-Remote-codes-for-LIRC
