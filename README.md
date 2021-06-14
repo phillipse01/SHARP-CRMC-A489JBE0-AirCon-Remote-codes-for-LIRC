@@ -9,7 +9,7 @@ Given parameters, generate raw codes that can be put into LIRC configuration fil
 
 Example usage:
 ```
-python3 encoder.py --mode 1 --temp 26 --power 2 --swing
+python3 encode.py --mode 1 --temp 26 --power 2 --swing
 ```
 
 ## decode.py
