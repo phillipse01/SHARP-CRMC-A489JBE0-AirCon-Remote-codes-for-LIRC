@@ -53,7 +53,7 @@ A   B  C   D    E F   G H   I     J    K   L
 000 01 111 1101 1 011 1 110 11111 1111 110 |  
 ```
 
-Each line is the same, used to verify transmission the second line is XOR'd of the first and last.  
+Each line is the same, used to verify transmission the second line is flipped compared to the first and last.  
 For the sake of simplicity, I focus on the first (and also last) lines.  
 I also didnt bother with the timer of the remote, so there are a few "unknowns"  
 
