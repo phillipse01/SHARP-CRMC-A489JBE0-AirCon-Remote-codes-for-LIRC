@@ -1,0 +1,487 @@
+Using driver default on device /dev/lirc-rx
+#
+# This config file was automatically generated
+# using lirc-0.10.1(emulation) on Sat Jun 19 08:11:10 2021
+# Command line used: -a SharpAcRaw1.lircd.conf
+# Kernel version (uname -r): 5.10.17+
+#
+# Remote name (as of config file): SharpAcRaw
+# Brand of remote device, the thing you hold in your hand:
+# Remote device model nr:
+# Remote device info url:
+# Does remote device has a bundled capture device e. g., a
+#     usb dongle? :
+# For bundled USB devices: usb vendor id, product id
+#     and device string (use dmesg or lsusb):
+# Type of device controlled
+#     (TV, VCR, Audio, DVD, Satellite, Cable, HTPC, ...) :
+# Device(s) controlled by this remote:
+
+begin remote
+
+  name  SharpAcRaw
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one           435  3700
+  zero          435  1620
+  ptrail        435
+  gap          20000
+  toggle_bit_mask 0x0
+  frequency    38000
+
+      begin codes
+          key_off                  0x0FEBEFFD 0x5C325000
+          key_on_auto_aTmpNorm_speedA_0 0x0FFFFFFE 0x5C325000
+          key_on_auto_aTmpCold2_speedA_0 0x09FFFFFE 0x5C325000
+          key_on_auto_aTmpCold1_speedA_0 0x0AFFFFFE 0x5C325000
+          key_on_auto_aTmpHot1_speedA_0 0x0EFFFFFE 0x5C325000
+          key_on_auto_aTmpHot2_speedA_0 0x0DFFFFFE 0x5C325000
+          key_on_auto_aTmpNorm_speed1_0 0x0FFFEFFE 0x5C325000
+          key_on_auto_aTmpCold2_speed1_0 0x09FFEFFE 0x5C325000
+          key_on_auto_aTmpCold1_speed1_0 0x0AFFEFFE 0x5C325000
+          key_on_auto_aTmpHot1_speed1_0 0x0EFFEFFE 0x5C325000
+          key_on_auto_aTmpHot2_speed1_0 0x0DFFEFFE 0x5C325000
+          key_on_auto_aTmpNorm_speed2_0 0x0FFFCFFE 0x5C325000
+          key_on_auto_aTmpCold2_speed2_0 0x09FFCFFE 0x5C325000
+          key_on_auto_aTmpCold1_speed2_0 0x0AFFCFFE 0x5C325000
+          key_on_auto_aTmpHot1_speed2_0 0x0EFFCFFE 0x5C325000
+          key_on_auto_aTmpHot2_speed2_0 0x0DFFCFFE 0x5C325000
+          key_on_auto_aTmpNorm_speed3_0 0x0FFFAFFE 0x5C325000
+          key_on_auto_aTmpCold2_speed3_0 0x09FFAFFE 0x5C325000
+          key_on_auto_aTmpCold1_speed3_0 0x0AFFAFFE 0x5C325000
+          key_on_auto_aTmpHot1_speed3_0 0x0EFFAFFE 0x5C325000
+          key_on_auto_aTmpHot2_speed3_0 0x0DFFAFFE 0x5C325000
+          key_upd_auto_aTmpNorm_speedA_0_swing 0x0FFFFF8C 0x5C325000
+          key_upd_auto_aTmpCold2_speedA_0_swing 0x09FFFF8C 0x5C325000
+          key_upd_auto_aTmpCold1_speedA_0_swing 0x0AFFFF8C 0x5C325000
+          key_upd_auto_aTmpHot1_speedA_0_swing 0x0EFFFF8C 0x5C325000
+          key_upd_auto_aTmpHot2_speedA_0_swing 0x0DFFFF8C 0x5C325000
+          key_upd_auto_aTmpNorm_speed1_0_swing 0x0FFFEF8C 0x5C325000
+          key_upd_auto_aTmpCold2_speed1_0_swing 0x09FFEF8C 0x5C325000
+          key_upd_auto_aTmpCold1_speed1_0_swing 0x0AFFEF8C 0x5C325000
+          key_upd_auto_aTmpHot1_speed1_0_swing 0x0EFFEF8C 0x5C325000
+          key_upd_auto_aTmpHot2_speed1_0_swing 0x0DFFEF8C 0x5C325000
+          key_upd_auto_aTmpNorm_speed2_0_swing 0x0FFFCF8C 0x5C325000
+          key_upd_auto_aTmpCold2_speed2_0_swing 0x09FFCF8C 0x5C325000
+          key_upd_auto_aTmpCold1_speed2_0_swing 0x0AFFCF8C 0x5C325000
+          key_upd_auto_aTmpHot1_speed2_0_swing 0x0EFFCF8C 0x5C325000
+          key_upd_auto_aTmpHot2_speed2_0_swing 0x0DFFCF8C 0x5C325000
+          key_upd_auto_aTmpNorm_speed3_0_swing 0x0FFFAF8C 0x5C325000
+          key_upd_auto_aTmpCold2_speed3_0_swing 0x09FFAF8C 0x5C325000
+          key_upd_auto_aTmpCold1_speed3_0_swing 0x0AFFAF8C 0x5C325000
+          key_upd_auto_aTmpHot1_speed3_0_swing 0x0EFFAF8C 0x5C325000
+          key_upd_auto_aTmpHot2_speed3_0_swing 0x0DFFAF8C 0x5C325000
+      end codes
+
+end remote
+
+
+Using driver default on device /dev/lirc-rx
+#
+# This config file was automatically generated
+# using lirc-0.10.1(emulation) on Sat Jun 19 08:11:17 2021
+# Command line used: -a SharpAcRaw2.lircd.conf
+# Kernel version (uname -r): 5.10.17+
+#
+# Remote name (as of config file): SharpAcRaw
+# Brand of remote device, the thing you hold in your hand:
+# Remote device model nr:
+# Remote device info url:
+# Does remote device has a bundled capture device e. g., a
+#     usb dongle? :
+# For bundled USB devices: usb vendor id, product id
+#     and device string (use dmesg or lsusb):
+# Type of device controlled
+#     (TV, VCR, Audio, DVD, Satellite, Cable, HTPC, ...) :
+# Device(s) controlled by this remote:
+
+begin remote
+
+  name  SharpAcRaw
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one           435  3700
+  zero          435  1620
+  ptrail        435
+  gap          20000
+  toggle_bit_mask 0x0
+  frequency    38000
+
+      begin codes
+          key_on_heat_aTmpNorm_speedA_18 0x0FEEFFFE 0xA0100200
+          key_on_heat_aTmpNorm_speedA_19 0x0FDEFFFE 0xA0100200
+          key_on_heat_aTmpNorm_speedA_20 0x0FCEFFFE 0xA0100200
+          key_on_heat_aTmpNorm_speedA_21 0x0FBEFFFE 0xA0100200
+          key_on_heat_aTmpNorm_speedA_22 0x0FAEFFFE 0xA0100200
+          key_on_heat_aTmpNorm_speedA_23 0x0F9EFFFE 0xA0100200
+          key_on_heat_aTmpNorm_speedA_24 0x0F8EFFFE 0xA0100200
+          key_on_heat_aTmpNorm_speedA_25 0x0F7EFFFE 0xA0100200
+          key_on_heat_aTmpNorm_speedA_26 0x0F6EFFFE 0xA0100200
+          key_on_heat_aTmpNorm_speedA_27 0x0F5EFFFE 0xA0100200
+          key_on_heat_aTmpNorm_speedA_28 0x0F4EFFFE 0xA0100200
+          key_on_heat_aTmpNorm_speedA_29 0x0F3EFFFE 0xA0100200
+          key_on_heat_aTmpNorm_speedA_30 0x0F2EFFFE 0xA0100200
+          key_on_heat_aTmpNorm_speedA_31 0x0F1EFFFE 0xA0100200
+          key_on_heat_aTmpNorm_speedA_32 0x0F0EFFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed1_18 0x0FEEEFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed1_19 0x0FDEEFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed1_20 0x0FCEEFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed1_21 0x0FBEEFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed1_22 0x0FAEEFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed1_23 0x0F9EEFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed1_24 0x0F8EEFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed1_25 0x0F7EEFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed1_26 0x0F6EEFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed1_27 0x0F5EEFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed1_28 0x0F4EEFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed1_29 0x0F3EEFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed1_30 0x0F2EEFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed1_31 0x0F1EEFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed1_32 0x0F0EEFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed2_18 0x0FEECFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed2_19 0x0FDECFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed2_20 0x0FCECFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed2_21 0x0FBECFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed2_22 0x0FAECFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed2_23 0x0F9ECFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed2_24 0x0F8ECFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed2_25 0x0F7ECFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed2_26 0x0F6ECFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed2_27 0x0F5ECFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed2_28 0x0F4ECFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed2_29 0x0F3ECFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed2_30 0x0F2ECFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed2_31 0x0F1ECFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed2_32 0x0F0ECFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed3_18 0x0FEEAFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed3_19 0x0FDEAFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed3_20 0x0FCEAFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed3_21 0x0FBEAFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed3_22 0x0FAEAFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed3_23 0x0F9EAFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed3_24 0x0F8EAFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed3_25 0x0F7EAFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed3_26 0x0F6EAFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed3_27 0x0F5EAFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed3_28 0x0F4EAFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed3_29 0x0F3EAFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed3_30 0x0F2EAFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed3_31 0x0F1EAFFE 0xA0100200
+          key_on_heat_aTmpNorm_speed3_32 0x0F0EAFFE 0xA0100200
+          key_upd_heat_aTmpNorm_speedA_18_swing 0x0FEEFF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speedA_19_swing 0x0FDEFF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speedA_20_swing 0x0FCEFF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speedA_21_swing 0x0FBEFF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speedA_22_swing 0x0FAEFF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speedA_23_swing 0x0F9EFF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speedA_24_swing 0x0F8EFF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speedA_25_swing 0x0F7EFF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speedA_26_swing 0x0F6EFF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speedA_27_swing 0x0F5EFF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speedA_28_swing 0x0F4EFF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speedA_29_swing 0x0F3EFF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speedA_30_swing 0x0F2EFF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speedA_31_swing 0x0F1EFF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speedA_32_swing 0x0F0EFF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed1_18_swing 0x0FEEEF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed1_19_swing 0x0FDEEF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed1_20_swing 0x0FCEEF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed1_21_swing 0x0FBEEF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed1_22_swing 0x0FAEEF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed1_23_swing 0x0F9EEF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed1_24_swing 0x0F8EEF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed1_25_swing 0x0F7EEF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed1_26_swing 0x0F6EEF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed1_27_swing 0x0F5EEF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed1_28_swing 0x0F4EEF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed1_29_swing 0x0F3EEF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed1_30_swing 0x0F2EEF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed1_31_swing 0x0F1EEF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed1_32_swing 0x0F0EEF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed2_18_swing 0x0FEECF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed2_19_swing 0x0FDECF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed2_20_swing 0x0FCECF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed2_21_swing 0x0FBECF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed2_22_swing 0x0FAECF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed2_23_swing 0x0F9ECF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed2_24_swing 0x0F8ECF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed2_25_swing 0x0F7ECF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed2_26_swing 0x0F6ECF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed2_27_swing 0x0F5ECF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed2_28_swing 0x0F4ECF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed2_29_swing 0x0F3ECF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed2_30_swing 0x0F2ECF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed2_31_swing 0x0F1ECF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed2_32_swing 0x0F0ECF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed3_18_swing 0x0FEEAF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed3_19_swing 0x0FDEAF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed3_20_swing 0x0FCEAF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed3_21_swing 0x0FBEAF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed3_22_swing 0x0FAEAF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed3_23_swing 0x0F9EAF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed3_24_swing 0x0F8EAF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed3_25_swing 0x0F7EAF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed3_26_swing 0x0F6EAF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed3_27_swing 0x0F5EAF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed3_28_swing 0x0F4EAF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed3_29_swing 0x0F3EAF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed3_30_swing 0x0F2EAF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed3_31_swing 0x0F1EAF8C 0xA0100200
+          key_upd_heat_aTmpNorm_speed3_32_swing 0x0F0EAF8C 0xA0100200
+      end codes
+
+end remote
+
+
+Using driver default on device /dev/lirc-rx
+#
+# This config file was automatically generated
+# using lirc-0.10.1(emulation) on Sat Jun 19 08:11:22 2021
+# Command line used: -a SharpAcRaw3.lircd.conf
+# Kernel version (uname -r): 5.10.17+
+#
+# Remote name (as of config file): SharpAcRaw
+# Brand of remote device, the thing you hold in your hand:
+# Remote device model nr:
+# Remote device info url:
+# Does remote device has a bundled capture device e. g., a
+#     usb dongle? :
+# For bundled USB devices: usb vendor id, product id
+#     and device string (use dmesg or lsusb):
+# Type of device controlled
+#     (TV, VCR, Audio, DVD, Satellite, Cable, HTPC, ...) :
+# Device(s) controlled by this remote:
+
+begin remote
+
+  name  SharpAcRaw
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one           435  3700
+  zero          435  1620
+  ptrail        435
+  gap          20000
+  toggle_bit_mask 0x0
+  frequency    38000
+
+      begin codes
+          key_on_cool_aTmpNorm_speedA_18 0x0FEDFFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speedA_19 0x0FDDFFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speedA_20 0x0FCDFFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speedA_21 0x0FBDFFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speedA_22 0x0FADFFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speedA_23 0x0F9DFFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speedA_24 0x0F8DFFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speedA_25 0x0F7DFFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speedA_26 0x0F6DFFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speedA_27 0x0F5DFFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speedA_28 0x0F4DFFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speedA_29 0x0F3DFFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speedA_30 0x0F2DFFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speedA_31 0x0F1DFFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speedA_32 0x0F0DFFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed1_18 0x0FEDEFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed1_19 0x0FDDEFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed1_20 0x0FCDEFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed1_21 0x0FBDEFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed1_22 0x0FADEFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed1_23 0x0F9DEFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed1_24 0x0F8DEFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed1_25 0x0F7DEFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed1_26 0x0F6DEFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed1_27 0x0F5DEFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed1_28 0x0F4DEFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed1_29 0x0F3DEFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed1_30 0x0F2DEFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed1_31 0x0F1DEFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed1_32 0x0F0DEFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed2_18 0x0FEDCFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed2_19 0x0FDDCFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed2_20 0x0FCDCFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed2_21 0x0FBDCFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed2_22 0x0FADCFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed2_23 0x0F9DCFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed2_24 0x0F8DCFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed2_25 0x0F7DCFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed2_26 0x0F6DCFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed2_27 0x0F5DCFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed2_28 0x0F4DCFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed2_29 0x0F3DCFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed2_30 0x0F2DCFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed2_31 0x0F1DCFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed2_32 0x0F0DCFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed3_18 0x0FEDAFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed3_19 0x0FDDAFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed3_20 0x0FCDAFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed3_21 0x0FBDAFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed3_22 0x0FADAFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed3_23 0x0F9DAFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed3_24 0x0F8DAFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed3_25 0x0F7DAFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed3_26 0x0F6DAFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed3_27 0x0F5DAFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed3_28 0x0F4DAFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed3_29 0x0F3DAFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed3_30 0x0F2DAFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed3_31 0x0F1DAFFE 0xAC1B7000
+          key_on_cool_aTmpNorm_speed3_32 0x0F0DAFFE 0xAC1B7000
+          key_upd_cool_aTmpNorm_speedA_18_swing 0x0FEDFF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speedA_19_swing 0x0FDDFF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speedA_20_swing 0x0FCDFF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speedA_21_swing 0x0FBDFF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speedA_22_swing 0x0FADFF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speedA_23_swing 0x0F9DFF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speedA_24_swing 0x0F8DFF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speedA_25_swing 0x0F7DFF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speedA_26_swing 0x0F6DFF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speedA_27_swing 0x0F5DFF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speedA_28_swing 0x0F4DFF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speedA_29_swing 0x0F3DFF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speedA_30_swing 0x0F2DFF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speedA_31_swing 0x0F1DFF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speedA_32_swing 0x0F0DFF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed1_18_swing 0x0FEDEF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed1_19_swing 0x0FDDEF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed1_20_swing 0x0FCDEF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed1_21_swing 0x0FBDEF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed1_22_swing 0x0FADEF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed1_23_swing 0x0F9DEF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed1_24_swing 0x0F8DEF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed1_25_swing 0x0F7DEF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed1_26_swing 0x0F6DEF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed1_27_swing 0x0F5DEF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed1_28_swing 0x0F4DEF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed1_29_swing 0x0F3DEF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed1_30_swing 0x0F2DEF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed1_31_swing 0x0F1DEF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed1_32_swing 0x0F0DEF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed2_18_swing 0x0FEDCF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed2_19_swing 0x0FDDCF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed2_20_swing 0x0FCDCF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed2_21_swing 0x0FBDCF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed2_22_swing 0x0FADCF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed2_23_swing 0x0F9DCF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed2_24_swing 0x0F8DCF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed2_25_swing 0x0F7DCF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed2_26_swing 0x0F6DCF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed2_27_swing 0x0F5DCF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed2_28_swing 0x0F4DCF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed2_29_swing 0x0F3DCF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed2_30_swing 0x0F2DCF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed2_31_swing 0x0F1DCF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed2_32_swing 0x0F0DCF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed3_18_swing 0x0FEDAF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed3_19_swing 0x0FDDAF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed3_20_swing 0x0FCDAF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed3_21_swing 0x0FBDAF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed3_22_swing 0x0FADAF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed3_23_swing 0x0F9DAF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed3_24_swing 0x0F8DAF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed3_25_swing 0x0F7DAF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed3_26_swing 0x0F6DAF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed3_27_swing 0x0F5DAF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed3_28_swing 0x0F4DAF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed3_29_swing 0x0F3DAF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed3_30_swing 0x0F2DAF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed3_31_swing 0x0F1DAF8C 0xAC1B7000
+          key_upd_cool_aTmpNorm_speed3_32_swing 0x0F0DAF8C 0xAC1B7000
+      end codes
+
+end remote
+
+
+Using driver default on device /dev/lirc-rx
+#
+# This config file was automatically generated
+# using lirc-0.10.1(emulation) on Sat Jun 19 08:11:26 2021
+# Command line used: -a SharpAcRaw4.lircd.conf
+# Kernel version (uname -r): 5.10.17+
+#
+# Remote name (as of config file): SharpAcRaw
+# Brand of remote device, the thing you hold in your hand:
+# Remote device model nr:
+# Remote device info url:
+# Does remote device has a bundled capture device e. g., a
+#     usb dongle? :
+# For bundled USB devices: usb vendor id, product id
+#     and device string (use dmesg or lsusb):
+# Type of device controlled
+#     (TV, VCR, Audio, DVD, Satellite, Cable, HTPC, ...) :
+# Device(s) controlled by this remote:
+
+begin remote
+
+  name  SharpAcRaw
+  bits           32
+  flags SPACE_ENC
+  eps            30
+  aeps          100
+
+  one           435  3700
+  zero          435  1620
+  ptrail        435
+  gap          20000
+  toggle_bit_mask 0x0
+  frequency    38000
+
+      begin codes
+          key_on_dehu_aTmpNorm_speedA_18 0x0FECFFFE 0x38C8A000
+          key_on_dehu_aTmpCold2_speedA_18 0x09ECFFFE 0x38C8A000
+          key_on_dehu_aTmpCold1_speedA_18 0x0AECFFFE 0x38C8A000
+          key_on_dehu_aTmpHot1_speedA_18 0x0EECFFFE 0x38C8A000
+          key_on_dehu_aTmpHot2_speedA_18 0x0DECFFFE 0x38C8A000
+          key_on_dehu_aTmpNorm_speed1_18 0x0FECEFFE 0x38C8A000
+          key_on_dehu_aTmpCold2_speed1_18 0x09ECEFFE 0x38C8A000
+          key_on_dehu_aTmpCold1_speed1_18 0x0AECEFFE 0x38C8A000
+          key_on_dehu_aTmpHot1_speed1_18 0x0EECEFFE 0x38C8A000
+          key_on_dehu_aTmpHot2_speed1_18 0x0DECEFFE 0x38C8A000
+          key_on_dehu_aTmpNorm_speed2_18 0x0FECCFFE 0x38C8A000
+          key_on_dehu_aTmpCold2_speed2_18 0x09ECCFFE 0x38C8A000
+          key_on_dehu_aTmpCold1_speed2_18 0x0AECCFFE 0x38C8A000
+          key_on_dehu_aTmpHot1_speed2_18 0x0EECCFFE 0x38C8A000
+          key_on_dehu_aTmpHot2_speed2_18 0x0DECCFFE 0x38C8A000
+          key_on_dehu_aTmpNorm_speed3_18 0x0FECAFFE 0x38C8A000
+          key_on_dehu_aTmpCold2_speed3_18 0x09ECAFFE 0x38C8A000
+          key_on_dehu_aTmpCold1_speed3_18 0x0AECAFFE 0x38C8A000
+          key_on_dehu_aTmpHot1_speed3_18 0x0EECAFFE 0x38C8A000
+          key_on_dehu_aTmpHot2_speed3_18 0x0DECAFFE 0x38C8A000
+          key_upd_dehu_aTmpNorm_speedA_18_swing 0x0FECFF8C 0x38C8A000
+          key_upd_dehu_aTmpCold2_speedA_18_swing 0x09ECFF8C 0x38C8A000
+          key_upd_dehu_aTmpCold1_speedA_18_swing 0x0AECFF8C 0x38C8A000
+          key_upd_dehu_aTmpHot1_speedA_18_swing 0x0EECFF8C 0x38C8A000
+          key_upd_dehu_aTmpHot2_speedA_18_swing 0x0DECFF8C 0x38C8A000
+          key_upd_dehu_aTmpNorm_speed1_18_swing 0x0FECEF8C 0x38C8A000
+          key_upd_dehu_aTmpCold2_speed1_18_swing 0x09ECEF8C 0x38C8A000
+          key_upd_dehu_aTmpCold1_speed1_18_swing 0x0AECEF8C 0x38C8A000
+          key_upd_dehu_aTmpHot1_speed1_18_swing 0x0EECEF8C 0x38C8A000
+          key_upd_dehu_aTmpHot2_speed1_18_swing 0x0DECEF8C 0x38C8A000
+          key_upd_dehu_aTmpNorm_speed2_18_swing 0x0FECCF8C 0x38C8A000
+          key_upd_dehu_aTmpCold2_speed2_18_swing 0x09ECCF8C 0x38C8A000
+          key_upd_dehu_aTmpCold1_speed2_18_swing 0x0AECCF8C 0x38C8A000
+          key_upd_dehu_aTmpHot1_speed2_18_swing 0x0EECCF8C 0x38C8A000
+          key_upd_dehu_aTmpHot2_speed2_18_swing 0x0DECCF8C 0x38C8A000
+          key_upd_dehu_aTmpNorm_speed3_18_swing 0x0FECAF8C 0x38C8A000
+          key_upd_dehu_aTmpCold2_speed3_18_swing 0x09ECAF8C 0x38C8A000
+          key_upd_dehu_aTmpCold1_speed3_18_swing 0x0AECAF8C 0x38C8A000
+          key_upd_dehu_aTmpHot1_speed3_18_swing 0x0EECAF8C 0x38C8A000
+          key_upd_dehu_aTmpHot2_speed3_18_swing 0x0DECAF8C 0x38C8A000
+          key_on_fan_aTmpNorm_speed1_18 0x0FEBEFFE 0x38C8A000
+          key_upd_fan_aTmpNorm_speed1_18_swing 0x0FEBEF8C 0x38C8A000
+          key_on_fan_aTmpNorm_speed2_18 0x0FEBCFFE 0x38C8A000
+          key_upd_fan_aTmpNorm_speed2_18_swing 0x0FEBCF8C 0x38C8A000
+          key_on_fan_aTmpNorm_speed3_18 0x0FEBAFFE 0x38C8A000
+          key_upd_fan_aTmpNorm_speed3_18_swing 0x0FEBAF8C 0x38C8A000
+      end codes
+
+end remote
+
+

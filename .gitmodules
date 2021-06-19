@@ -1,0 +1,3 @@
+[submodule "homebridge-aircon-lirc-accessory"]
+	path = homebridge-aircon-lirc-accessory
+	url = https://github.com/phillipse01/homebridge-aircon-lirc-accessory.git
