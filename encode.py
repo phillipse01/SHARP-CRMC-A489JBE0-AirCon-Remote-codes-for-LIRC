@@ -47,11 +47,11 @@ elif args.mode == 1: # === heat ===
 elif args.mode == 2: # === cool ===
 	args.autotemp = 0 # autoTemp does not apply in cool mode
 elif args.mode == 3: # === dehumidify ===
-    args.temp = 18 # no temp configurable, set to 18 as per remote output
+	args.temp = 18 # no temp configurable, set to 18 as per remote output
 elif args.mode == 4: # === fan ===
 	args.autotemp = 0 # autoTemp does not apply in fan mode
-    args.temp = 18 # no temp configurable, set to 18 as per remote output
-    if args.speed == 0 : args.speed = 1 # we cant have auto fan in fan mode
+	args.temp = 18 # no temp configurable, set to 18 as per remote output
+	if args.speed == 0 : args.speed = 1 # we cant have auto fan in fan mode
 
 if args.swing == True: #cannot invoke swing with on/off command
 	args.power = 2
