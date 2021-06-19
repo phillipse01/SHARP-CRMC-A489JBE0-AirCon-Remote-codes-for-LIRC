@@ -23,10 +23,8 @@ spaceShort = "1620"
 spaceLong = "3700"
 spaceSeperator = "20000"
 
-# gap before transmission is not XOR'd
+# gap before transmission is not Bit Flipped
 codeGap = "000"
-# almost all cases we default to all 1's
-codeDefault = "111"
 
 # Setup code to binary mappings
 tempMappings = { "0" : "1111", "18" : "1110", "19" : "1101", "20" : "1100", "21" : "1011", "22" : "1010", "23" : "1001", "24" : "1000", "25" : "0111", "26" : "0110", "27" : "0101", "28" : "0100", "29" : "0011", "30" : "0010", "31" : "0001", "32" : "0000" }
@@ -82,7 +80,7 @@ def buildBinary():
 	builder += powerMappings.get(f"{args.power}")
 	return builder
 
-# Finalize binary with a decoration (start,seperator,xor)
+# Finalize binary with a decoration (start,seperator,bit flip)
 def decorateBinary(binary):
 	builder = codeGap + binary + "|"
 	invertedBinary = ""

@@ -12,6 +12,20 @@ Example usage:
 python3 encode.py --mode 1 --temp 26 --power 2 --swing
 ```
 
+Options:
+```
+  -h, --help          show this help message and exit
+  --temp [[18-32]]    an integer tempreture 18-32 degrees (only applies for heat and cool, default
+                      23)
+  --mode [[0-4]]      Which mode? 0 = auto, 1 = heat, 2 = cool, 3 = dehumidify, 4 = fan
+  --autotemp [[0-4]]  which level of heating/cooling? 0 = off, 1 = coldest, 2 = cold, 3 = hot, 4 =
+                      hottest (only applies to auto and dehumidify modes, defaults to off)
+  --speed [[0-3]]     Which Fan Speed? 0 = auto, 1 = slow, 2 = medium, 3 = fast (auto not available
+                      in fan mode, defaults to slow)
+  --power [[0-2]]     Which command? 0 = off, 1 = on, 2 = update only
+  --swing             Change swing setting?
+```
+
 ## decode.py
 Decodes output of mode2 to binary to help decipher the remote codes. Example usage:
 ```
