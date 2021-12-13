@@ -91,6 +91,7 @@ C:
 * 111 = normal (for other modes)
 * 010 = lower
 * 001 = lowest
+
 D:  
 * Temp Val code (cool, heat)
 * 1111 = Auto mode only
